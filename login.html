@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<head>
+ <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+ 
+
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, 		     user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jQuery/jqueryMobile/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="jQuery/jqueryMobile/jquery.mobile-1.4.5.css">
+    <script src="jQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="jQuery/jquery-ui-1.12.1/jquery-ui.css">
+    
+<title>Come Climb With Me</title>
+<script type="text/javascript" src="cordova.js"></script>
+<script src="JS/slidetabs.js" type="text/javascript"></script>
+<link rel="stylesheet" href="CSS/CCWM.css" type="text/css">
+</head>
+</head>
+
+<body>
+
+<!--LOGIN OR SIGN UP PAGE------------------>    
+    <div data-role="page" id="setup">
+  		
+        <h1>Login</h1>
+   		<div data-role="main">
+            
+            <form data-ajax="false" action="loginScript.php" method="POST">
+              <div class="ui-field-contain">
+     <table size="450px" align="center" id="formedit"><!--cannot get id formedit to style-->
+        
+         
+         
+          <tr>
+            <td align="top">
+                 <label for="email">EMAIL</label>
+                <input type="email" name="email" placeholder="Enter Email" id="email" size="30" data-clear-btn="true"/>
+            </td>
+        </tr>
+        
+        <tr>
+           <td>
+               <label for="password">Password&nbsp;&nbsp;</label>
+               <input type="password" name="password" id="password" placeholder="Enter Password" data-clear-btn="true"/>
+           </td>   
+       </tr>
+       <tr>
+          <td>
+             <input type="submit" data-inline="true" value="LOGIN" data-iconpos="left" data-corners="true" id="profilebtn"><br/>
+              
+          </td>
+      </tr>
+    </table>
+   </div>
+</form>
+           
+                
+ 		 </div>
+        </div>
+</body>
+</html>

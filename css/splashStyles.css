@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../images/crosshhatch1-3.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:auto;
+	overflow-x:hidden;
+	
+}
+
+#signupBut{
+	background-image:url(../images/signupButton.png);
+	background-repeat:no-repeat;
+	margin:0 auto;
+	text-align:center;
+	font-size:0;
+	width:120px;
+	position:absolute;
+	top:80%;
+	left:37%;
+	height:60px;
+	
+	
+}
+
+#loginBut{
+	background-image:url(../images/LoginButton.png);
+	background-repeat:no-repeat;
+	margin:0 auto;
+	text-align:center;
+	font-size:0;
+	width:120px;
+	position:absolute;
+	top:90%;
+	left:37%;
+	height:60px;
+	
+	
+}

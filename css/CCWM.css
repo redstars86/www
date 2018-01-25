@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Home page style*/
+html{
+	background-image:url(../images/background.png)!important;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+body{
+	background-image:url(../images/background.png)!important;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+@media screen and (orientation: portrait){
+	#logo img{
+	width:20%;
+	height:20%;
+	margin-top:15%;
+	
+	}	
+}
+@media screen and (orientation: landscape){
+	#logo img{
+	width:20%;
+	height:20%;
+	margin-top:0px;
+	margin-left:10%;
+	
+	}	
+}
+#home-button{
+	font-family:arial, sans-serif;
+	text-shadow:0 0 0;
+	font-size:20px;
+	background-color:#f7941e;
+	color:#ffffff;
+	width:91%;
+	left:40%;
+	bottom:0px;
+	position:absolute;
+}
+@media screen and (orientation:landscape){
+	#home-button{left:2%;}
+}
+#home-footer{
+	background-color:#ffffff !important;
+	border:none;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+}
+/*setup page style*/
+#setup-header{
+	font-size:50px!important;
+	text-shadow:0 0 0;
+	height:60px;
+	color:#ffffff;
+	background-color:#f7941e !important;
+	border:none;
+	font-family:Arial, sans-serif;
+}
+/*map page style*/
+.menu-icon {
+	width:35px;
+	height:auto;
+	float:left;
+	border:none;
+	background-color:#f7941e;
+}
+
+#map-header{
+	text-align:left !important;
+	font-size:20px;
+	text-shadow:0 0 0;
+	height:60px;
+	color:#ffffff;
+	background-color:#f7941e;
+	border:none;
+	font-family:Arial, sans-serif;
+}
+
+#map-header a{
+	background-color:#f7941e;
+	border:none;
+}
+
+ /*#mapfull {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }*/
+ /*slide out panel style*/
+ #mypanel{
+	 background-color:#58585a;
+	 text-shadow:0 0 0;
+ }
+ 
+.back{
+	width:35px;
+	height:auto;
+	float:left;
+	border:none;
+ }
+/*profile pic*/  
+.profile{
+	 margin-top:20%;
+	 margin-left:4%;
+	 width:140px;
+	 border-radius:50%;
+ }
+
+ .menu{
+	 list-style-type:none;
+	 margin-left:10%;	 
+ }
+ 
+.menu a:link{
+	 color:#ffffff;
+	 text-decoration:none;
+ }
+ 
+ .menu a:hover{
+	 color:#ffffff;
+ }
+ 
+#map-footer{
+	 bottom:0px;
+	 position:fixed;
+	 background-color:#ffffff;
+	 width:100%;
+	 border:none;
+ }
+ /*slide up tabs*/
+ .buddies{
+	 width:120px;;
+	 border-radius:10px 10px 0 0;
+	 background-color:#58585a;
+	 margin-left:10%;
+	 font-size:24px;
+	 padding:5px;
+	 bottom:0px;
+	 position:fixed;
+	 text-align:center;
+	 text-shadow:0 0 0;
+ }
+@media screen and (orientation:landscape){
+	.buddies{margin-left:20%;}
+}
+ .tabs a:link{
+	 color:#ffffff;
+	 text-decoration:none;
+ }
+ 
+ .tabs a:hover{
+	 color:#ffffff;
+ }
+ 
+ .filter{
+	 width:120px;
+	 border-radius:10px 10px 0 0;
+	 background-color:#58585a;
+	 margin-left:50%;
+	 padding:5px;
+	 font-size:24px;
+	 bottom:0px;
+	 position:fixed;
+	 text-align:center;
+	 text-shadow:0 0 0;
+ }
+ 
+ .tabs li{
+	 list-style:none;
+	 display:inline;
+ }
+ 
+ #tabs1{
+	 display:none;
+	 height:500px;
+	 background-color:#58585a;
+	 text-shadow:0 0 0;
+ }
+ 
+ @media screen and (orientation:landscape){
+	 #tabs1{
+		 height:400px;
+	 }
+ }
+ 
+  #tabs2{
+	 display:none;
+	 height:500px;
+	 background-color:#58585a;
+	 text-shadow:0 0 0;
+ }
+ 
+ @media screen and (orientation:landscape){
+	 #tabs2{
+		 height:400px;
+	 }
+ }
+ /*settings page style*/
+ #settings-header{
+	text-align:left !important;
+	font-size:20px;
+	text-shadow:0 0 0;
+	height:60px;
+	color:#ffffff;
+	background-color:#f7941e;
+	border:none;
+	font-family:Arial, sans-serif;
+ }
+ 
+ #settings ul {
+	 list-style:none;
+	 margin-top:20%;
+ }
+ 
+ #settings a {
+	  text-decoration:none;
+	  color:#58585a;
+ }
+ 
+#settings-header a {
+	 width:25px;
+	 background-color:#f7941e;
+	 border:none;
+ }
+ .arrow img{
+	 width:25px;
+	 height:auto;
+	 background-color:
+	 #f7941e;
+ }
+ 
+ 
+ 
+ /*edit info page style*/
+  #edit-header{
+	text-align:left !important;
+	font-size:20px;
+	text-shadow:0 0 0;
+	height:60px;
+	color:#ffffff;
+	background-color:#f7941e;
+	border:none;
+	font-family:Arial, sans-serif;
+ }
+ 
+ #edit-header a{
+	 width:25px;
+	 background-color:#f7941e;
+	 border:none;
+ }
+ 
+ /*buddy profile style*/
+ #buddyprofile-header{
+	text-align:left !important;
+	font-size:20px;
+	text-shadow:0 0 0;
+	height:60px;
+	color:#ffffff;
+	background-color:#f7941e;
+	border:none;
+	font-family:Arial, sans-serif;
+ }
+
+/*ui btn style for edit profile*/
+.ui-btn-orange {
+    background-color:#f7941e;
+    font-size:12pt;
+    font-family:Arial,sans-serif;
+}
+
+/*DEREK'S*/
+
+.fb-login-button{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+			/*<!--THIS STYLE IS NOT APPLYING-->*/
+buddies-container-block{
+	background-color:#E1E1E1;
+	text-align:center;
+	overflow:scroll;
+}
+
+div.buddies-container-block table{
+	padding:20px;
+}
+
